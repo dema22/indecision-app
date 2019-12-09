@@ -1,0 +1,12 @@
+{
+    // Presets are group of plugins
+    // Whenever this proyect runs babel use this two presets
+    "presets": [
+        "@babel/preset-env", // Will tranform all the latest features to es5    
+        "@babel/preset-react" // will transform stuff like JSX to old boring js :)
+    ],
+    // for individual plugin we provided that name
+    "plugins": [
+        "transform-class-properties"
+    ]
+}
